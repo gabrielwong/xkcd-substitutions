@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Substitutions",
+  "description": "Based on xkcd's comic found at http://xkcd.com/1288/",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon128.png"
+  }
+}
